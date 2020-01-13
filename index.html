@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC 
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title></title>
+
+     <style type="text/css">
+
+	
+        * { margin: 0; padding: 0; }
+        body { font: 12px Helvetica, Sans-Serif; line-height: 20px color: white; 
+    
+    background-image: url("jar.jpg");
+
+
+}
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -20px 0 0 0; }
+
+        .navigationbar {
+    float: left;
+    text-align: center;
+    display: inline;
+    color: white;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.navigationbar .login {
+    float: right;
+
+}
+.navigationbar .login button {
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+    margin-right: 18px;
+    background: white ;
+    font-size: 8px;
+    border: 2pt;
+    cursor: default;
+}
+.navigationbar .login button: hover{
+    background-color: white;
+}
+    .contact {
+    float:right; 
+    margin-left: 10px   
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<head>
+
+  <script src="js/scripts.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+
+
+}
+
+}
+        h1 { float: left; margin-left: 0 0 16px 0; padding: 0 0 16px 0; color: white; font-size: 34px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid white; }
+        h2 { font-size: 30px; margin: 0 0 6px 0; position: left; color: #DCDCDC;}
+        h2 span { position: absolute; bottom: 0; ; font-style: italic; font-family: Georgia, Serif; font-size: 30px; color: white; font-weight: normal; }
+        h4{color: white; font-size: 16px;}
+        p { position: left; margin: 0 0 10px 12px; color: white; font-size: 18px;}
+        a { color: white; text-decoration: none; border-bottom: 1px dotted #white; }
+        a:hover { border-bottom-style: solid; color: white; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: white; }
+        dt { font-style: italic; font-weight: bold; font-size: 22px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid; color: white;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
+
+<body>
+
+    
+        <div id="page-wrap">
+       <div class="navigationbar">
+        <a href="#about">About    </a>
+        <a href="#biography">  CV    </a>
+        <a href="#contact">  Contact</a>
+
+
+
+                        <a href="progress1.html" class="projecth" target="_blank">
+                            <h4 class="projecth">CV progress#1</h4>
+                        </a>
+                    </li>
+                </ul>
+
+
+                        <a href="progress2.html" class="projecth" target="_blank">
+                            <h4 class="projecth">CV progress#2</h4>
+                        </a>
+                    </li>
+                </ul>
+
+
+
+         <div class="login">
+            <form action="someAction">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1> Ilma Zolota, Curriculum Vitae</h1>
+              
+       
+        <img src="images/CV photo.jpg" alt="Ilma's photo"  width="150" height="200" /></br>
+            <p>
+              
+                Email: <class="email" href="mailto:ilma.zolota@outlook.com ">ilma.zolota@outlook.com</>
+            </p>
+    
+              <p>
+              
+                Address: Travnik, Sarajevo; BiH 
+            </p>
+      <p>
+                Gender: Female
+            </p>
+      
+        <p>
+              
+                Birth date: 16/11/1996 
+            </p>
+      
+      <p>
+              
+                Nationality: Bosnian-Herzegovinian
+            </p>
+      
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>International University of Sarajevo, Sarajevo (Bosnia and Herzegovina) </h2>
+                <p><strong>Major:</strong> Computer Science and Engineering<br />
+                <p>2015-2020<br />
+                <h2>Elči Ibrahim-pašina medresa, Travnik (Bosnia and Herzegovina)(Achievement: Excellent)</h2> 
+                <p>2011-2015<br /> <p/>  
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Computer skills</h2>
+                <p> Microsoft Word, Excel, Power point, Basics of : Matlab, C++, Java, SQL, Asp.net, HTML, CSS </p>
+                
+                <h2>Personal skills</h2>
+                <h4>Mother tongue</h4>
+                <p>Bosnian</p>
+                <h4>Foreign language(s)</h4>
+                <ol>
+                <p>English(C1)</p>
+                <p>Spanish(C1)</p>
+                <p>Turkish(B2)</p>
+                <p>Arabic(A1)</p>
+                </ol>
+               
+               <h2>Other skills</h2>
+               <ol>
+                <p>Main interest in IT industry</p>
+                <p>Passionate reader</p>
+                <p>Enjoying in learning new languages and travelling</p>
+                <p>Big interest in Psychology</p>
+               </ol></br>
+
+<dd>
+     <div id="contact" class="bgphoto" style="position:relative;">
+
+        <h2>Contact Me: </h2>
+
+<div id="panel">Contact Me</div>
+        <div class="contact">
+            <form action="sendMessage">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="First name"  size=“20” maxlength=“30” ></br>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Last name"  size=“20” maxlength=“30” ></br>
+
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" cols="50" maxlength="600" rows="10" placeholder="Please type your message here:" style="height: 150px"></textarea></br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</dd>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
